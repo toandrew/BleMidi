@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+    <!-- Advertise and Services UUID for MIDI -->
+    <string-array name="uuidListForService">
+        <item>03b80e5a-ede8-4b33-a751-6ce34ec4c700</item><!-- Apple BLE MIDI -->
+    </string-array>
+
+    <!-- Characteristics UUID for MIDI Input -->
+    <!-- Notify -->
+    <string-array name="uuidListForInputCharacteristic">
+        <item>7772e5db-3868-4112-a1a9-f2669d106bf3</item><!-- Apple BLE MIDI -->
+    </string-array>
+
+    <!-- Characteristics UUID for MIDI Output -->
+    <!-- Write without Response -->
+    <string-array name="uuidListForOutputCharacteristic">
+        <item>7772e5db-3868-4112-a1a9-f2669d106bf3</item><!-- Apple BLE MIDI -->
+    </string-array>
+</resources>
